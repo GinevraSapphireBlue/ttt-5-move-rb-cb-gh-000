@@ -8,3 +8,4 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "State your move"
 position = input_to_index(gets.strip)
 move(board, position)
+display_board(board)
